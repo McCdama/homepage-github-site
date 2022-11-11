@@ -1,0 +1,20 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+  /*font-family: 'Caveat', cursive;*/
+}
+body {
+  font-family: 'Courier New', monospace;
+   font-size: 100%;
+}
+
+@media (min-width: 768px) {
+  .flock-birds {
+    width: 50%;
+    font-family: 'Caveat', cursive;
+  }
+
+  .mono{
+     font-family: 'Caveat', cursive;
+  }
